@@ -1,0 +1,11 @@
+<!--<p>parent works!</p>
+<app-child #child (greetEvent)="greet($event)" [childPassData]= "childPassData" ></app-child>
+<br />
+{{child.name}}<br />
+{{child.childMethod()}}<br />
+{{parentMsg}}
+<br />-->
+
+<a (click)="changeFromParent()">Change from parent</a>
+<br/>
+<app-child [parentData]=data></app-child>
